@@ -1,4 +1,6 @@
 import "./App.css";
+import HookEffect from "./components/hooks/HookEffect";
+import HookRef from "./components/hooks/HookRef";
 import HookState from "./components/hooks/HookState";
 import UserSearch from "./components/refs/UserSearch";
 
@@ -7,6 +9,8 @@ function App() {
     <>
       <UserSearch />
       <HookState />
+      <HookEffect />
+      <HookRef />
     </>
   );
 }
